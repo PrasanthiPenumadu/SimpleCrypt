@@ -1,4 +1,4 @@
-# SimpleCrypt
+****# SimpleCrypt
 a simple set of crypt problems.
 
 ### Part 1

@@ -1,3 +1,5 @@
+package Crypto.src;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -44,6 +46,7 @@ public class ROT13Test {
         String actual = cipher.rotate(s1, 'N');
         System.out.println(s1);
         System.out.println(actual);
+
         // Then
         assertTrue(actual.equals(s2));
     }
@@ -59,10 +62,12 @@ public class ROT13Test {
         String Q2 = "Gb trg gb gur bgure fvqr!";
         String A2 = "To get to the other side!";
 
+
         // When
         String actual = cipher.encrypt(Q1);
         System.out.println(Q1);
         System.out.println(A1);
+        System.out.println(actual);
         // Then
         assertTrue(actual.equals(A1));
 
